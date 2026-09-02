@@ -99,7 +99,7 @@ function HomePage() {
             <div className="order-2 lg:order-1">
               <img
                 src={homeBumblebee}
-                alt="A fuzzy bumblebee collects pollen from a coneflower blossom"
+                alt="A Black-tailed Bumblebee collects pollen from a Catmint blossom"
                 width={800}
                 height={600}
                 className="rounded-2xl border border-border/50 shadow-lg"
@@ -112,9 +112,9 @@ function HomePage() {
                 Carlton Pollinator Project
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-                CPP is a grassroots nonprofit that partners with Carlton neighbors and community
-                resources to support pollinators and wildlife through local restoration projects and
-                ecology-based classes.
+                Carlton Pollinator Project (CPP) is a grassroots nonprofit that partners with
+                Carlton neighbors and community resources to support pollinators and wildlife through
+                local restoration projects and ecology-based classes.
               </p>
               <p className="mt-4 text-muted-foreground">
                 We believe every yard, school garden, and public area has the potential to be a
@@ -224,11 +224,11 @@ function HomePage() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <ActionCard
               title="Plant natives"
-              description="Pollinators need them to complete their life cycle. Every plant makes a difference."
+              description="Many pollinators need natives to complete their life cycle. Every plant makes a difference."
             />
             <ActionCard
               title="Create habitat"
-              description="Learn about pollinators’ specific needs and create an area in your garden for habitat."
+              description="Learn about pollinators’ specific needs and create an area in your garden for wildlife habitat."
             />
             <ActionCard
               title="Spread awareness"
@@ -236,7 +236,7 @@ function HomePage() {
             />
             <ActionCard
               title="Remove invasives"
-              description="Get to know the invasive plants in our area and remove them when you can."
+              description="Get to know the invasive plants in our area and remove them where you can."
             />
             <ActionCard
               title="Avoid chemicals"
@@ -315,7 +315,7 @@ function HomePage() {
               </h2>
               <p className="mt-2 text-lg font-medium text-sage-dark">(Beetopia)</p>
               <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                Our flagship street-side garden brings native blooms to the heart of Carlton.
+                Our flagship street-side garden supports pollinators in the heart of Carlton.
                 Neighbors, volunteers, and local students have transformed this space into a living
                 classroom and a reliable food source for pollinators from spring through fall.
               </p>
@@ -353,8 +353,9 @@ function HomePage() {
               Our Current Project: Hawn Creek Pocket Park
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-lg text-muted-foreground">
-              We are turning this small town park into a native plant refuge — a place where people
-              can gather and pollinators can thrive.
+              In a collaborative effort with our neighbors, local environmental agencies and
+              businesses, we are turning this small town park into a native plant refuge — a place
+              where family and friends can gather and wildlife can thrive.
             </p>
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
@@ -408,7 +409,7 @@ function HomePage() {
                 Learn with us
               </h2>
               <p className="mt-4 text-muted-foreground">
-                Join us for hands-on workshops about native plants, pollinator identification, and
+                Join us for hands-on workshops about native plants, pollinator needs, and
                 wildlife-friendly gardening. All experience levels are welcome.
               </p>
               <Button asChild className="mt-6">

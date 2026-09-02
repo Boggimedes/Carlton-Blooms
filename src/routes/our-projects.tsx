@@ -44,9 +44,9 @@ const projects = [
     image: hawnCreekPark,
     title: "Hawn Creek Pocket Park",
     description:
-      "Our current focus: turning a small town park into a native plant refuge. A winding path, bench, and young native trees make it a place where people can gather and pollinators can thrive.",
+      "Our current focus: turning a small town park into a pollinator sanctuary. A winding path, benches, and native plantings make it a place where people can gather and pollinators can thrive.",
     details: [
-      "Native meadow and shrub plantings",
+      "Native wildflower, shrub and tree plantings",
       "Community work parties",
       "Long-term monitoring",
     ],
@@ -55,7 +55,7 @@ const projects = [
     image: hawnCreekVolunteers,
     title: "Community Volunteer Days",
     description:
-      "From school gardens to park restorations, our volunteers are the roots of everything we do. All ages and experience levels are welcome at our planting days and maintenance events.",
+      "In every restoration, our volunteers are the roots of everything we do. All ages and experience levels are welcome at our planting days and maintenance events.",
     details: [
       "All tools and guidance provided",
       "Family-friendly work parties",
@@ -148,8 +148,8 @@ function OurProjectsPage() {
                 Ecology-based educational classes
               </h2>
               <p className="mt-4 text-muted-foreground">
-                Join us for hands-on workshops about native plants, pollinator identification, and
-                wildlife-friendly gardening. All experience levels are welcome.
+                Join us for hands-on workshops about native plants, understanding pollinator
+                needs, and wildlife-friendly gardening. All experience levels are welcome.
               </p>
               <Button asChild className="mt-6">
                 <Link to="/contact">

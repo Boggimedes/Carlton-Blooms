@@ -1,4 +1,4 @@
-import { n as Button } from "./router-DT5WE7d0.js";
+import { n as Button } from "./router-DwznUUqe.js";
 import { n as hawn_creek_park_default, r as beetopia_garden_default, t as hawn_creek_volunteers_default } from "./hawn-creek-volunteers-C4ufubd6.js";
 import { Link } from "@tanstack/react-router";
 import { jsx, jsxs } from "react/jsx-runtime";
@@ -97,7 +97,7 @@ function HomePage() {
 							className: "order-2 lg:order-1",
 							children: /* @__PURE__ */ jsx("img", {
 								src: home_bumblebee_default,
-								alt: "A fuzzy bumblebee collects pollen from a coneflower blossom",
+								alt: "A Black-tailed Bumblebee collects pollen from a Catmint blossom",
 								width: 800,
 								height: 600,
 								className: "rounded-2xl border border-border/50 shadow-lg",
@@ -113,7 +113,7 @@ function HomePage() {
 								}),
 								/* @__PURE__ */ jsx("p", {
 									className: "mt-6 text-lg leading-relaxed text-muted-foreground",
-									children: "CPP is a grassroots nonprofit that partners with Carlton neighbors and community resources to support pollinators and wildlife through local restoration projects and ecology-based classes."
+									children: "Carlton Pollinator Project (CPP) is a grassroots nonprofit that partners with Carlton neighbors and community resources to support pollinators and wildlife through local restoration projects and ecology-based classes."
 								}),
 								/* @__PURE__ */ jsx("p", {
 									className: "mt-4 text-muted-foreground",
@@ -245,11 +245,11 @@ function HomePage() {
 						children: [
 							/* @__PURE__ */ jsx(ActionCard, {
 								title: "Plant natives",
-								description: "Pollinators need them to complete their life cycle. Every plant makes a difference."
+								description: "Many pollinators need natives to complete their life cycle. Every plant makes a difference."
 							}),
 							/* @__PURE__ */ jsx(ActionCard, {
 								title: "Create habitat",
-								description: "Learn about pollinators’ specific needs and create an area in your garden for habitat."
+								description: "Learn about pollinators’ specific needs and create an area in your garden for wildlife habitat."
 							}),
 							/* @__PURE__ */ jsx(ActionCard, {
 								title: "Spread awareness",
@@ -257,7 +257,7 @@ function HomePage() {
 							}),
 							/* @__PURE__ */ jsx(ActionCard, {
 								title: "Remove invasives",
-								description: "Get to know the invasive plants in our area and remove them when you can."
+								description: "Get to know the invasive plants in our area and remove them where you can."
 							}),
 							/* @__PURE__ */ jsx(ActionCard, {
 								title: "Avoid chemicals",
@@ -348,7 +348,7 @@ function HomePage() {
 								}),
 								/* @__PURE__ */ jsx("p", {
 									className: "mt-5 text-lg leading-relaxed text-muted-foreground",
-									children: "Our flagship street-side garden brings native blooms to the heart of Carlton. Neighbors, volunteers, and local students have transformed this space into a living classroom and a reliable food source for pollinators from spring through fall."
+									children: "Our flagship street-side garden supports pollinators in the heart of Carlton. Neighbors, volunteers, and local students have transformed this space into a living classroom and a reliable food source for pollinators from spring through fall."
 								}),
 								/* @__PURE__ */ jsx("ul", {
 									className: "mt-6 space-y-3",
@@ -389,7 +389,7 @@ function HomePage() {
 								children: "Our Current Project: Hawn Creek Pocket Park"
 							}), /* @__PURE__ */ jsx("p", {
 								className: "mx-auto mt-5 max-w-3xl text-lg text-muted-foreground",
-								children: "We are turning this small town park into a native plant refuge — a place where people can gather and pollinators can thrive."
+								children: "In a collaborative effort with our neighbors, local environmental agencies and businesses, we are turning this small town park into a native plant refuge — a place where family and friends can gather and wildlife can thrive."
 							})]
 						}),
 						/* @__PURE__ */ jsxs("div", {
@@ -460,7 +460,7 @@ function HomePage() {
 							}),
 							/* @__PURE__ */ jsx("p", {
 								className: "mt-4 text-muted-foreground",
-								children: "Join us for hands-on workshops about native plants, pollinator identification, and wildlife-friendly gardening. All experience levels are welcome."
+								children: "Join us for hands-on workshops about native plants, pollinator needs, and wildlife-friendly gardening. All experience levels are welcome."
 							}),
 							/* @__PURE__ */ jsx(Button, {
 								asChild: true,
