@@ -27,13 +27,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Globe className="h-4 w-4 shrink-0 text-goldenrod" aria-hidden="true" />
-                <a
-                  href="https://carltonpollinatorproject.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline"
-                >
-                  carltonpollinatorproject.org
+                <a href="https://carltonblooms.org" className="hover:underline">
+                  carltonblooms.org
                 </a>
               </li>
             </ul>

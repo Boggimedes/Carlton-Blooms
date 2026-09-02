@@ -1,4 +1,4 @@
-import { n as Button } from "./router-B3UYPihT.js";
+import { n as Button } from "./router-CblJ8Mdi.js";
 import { Link } from "@tanstack/react-router";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { ArrowRight, Camera, Flower2, PartyPopper, Users } from "lucide-react";

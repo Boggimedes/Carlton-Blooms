@@ -1,4 +1,4 @@
-import { n as Button, r as cn } from "./router-B3UYPihT.js";
+import { n as Button, r as cn } from "./router-CblJ8Mdi.js";
 import * as React from "react";
 import { useState } from "react";
 import { jsx, jsxs } from "react/jsx-runtime";
@@ -252,9 +252,9 @@ function ContactPage() {
 										className: "font-medium text-foreground",
 										children: "Email"
 									}), /* @__PURE__ */ jsx("a", {
-										href: "mailto:contact@carltonpollinatorproject.org",
+										href: "mailto:contact@carltonblooms.org",
 										className: "text-muted-foreground hover:text-sage-dark hover:underline",
-										children: "contact@carltonpollinatorproject.org"
+										children: "contact@carltonblooms.org"
 									})] })]
 								}),
 								/* @__PURE__ */ jsxs("li", {
@@ -269,11 +269,9 @@ function ContactPage() {
 										className: "font-medium text-foreground",
 										children: "Website"
 									}), /* @__PURE__ */ jsx("a", {
-										href: "https://carltonpollinatorproject.org",
-										target: "_blank",
-										rel: "noopener noreferrer",
+										href: "https://carltonblooms.org",
 										className: "text-muted-foreground hover:text-sage-dark hover:underline",
-										children: "carltonpollinatorproject.org"
+										children: "carltonblooms.org"
 									})] })]
 								})
 							]

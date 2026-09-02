@@ -91,10 +91,10 @@ function ContactPage() {
                   <div>
                     <p className="font-medium text-foreground">Email</p>
                     <a
-                      href="mailto:contact@carltonpollinatorproject.org"
+                      href="mailto:contact@carltonblooms.org"
                       className="text-muted-foreground hover:text-sage-dark hover:underline"
                     >
-                      contact@carltonpollinatorproject.org
+                      contact@carltonblooms.org
                     </a>
                   </div>
                 </li>
@@ -105,12 +105,10 @@ function ContactPage() {
                   <div>
                     <p className="font-medium text-foreground">Website</p>
                     <a
-                      href="https://carltonpollinatorproject.org"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="https://carltonblooms.org"
                       className="text-muted-foreground hover:text-sage-dark hover:underline"
                     >
-                      carltonpollinatorproject.org
+                      carltonblooms.org
                     </a>
                   </div>
                 </li>

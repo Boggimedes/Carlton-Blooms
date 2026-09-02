@@ -295,11 +295,9 @@ function Footer() {
 											className: "h-4 w-4 shrink-0 text-goldenrod",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("a", {
-											href: "https://carltonpollinatorproject.org",
-											target: "_blank",
-											rel: "noopener noreferrer",
+											href: "https://carltonblooms.org",
 											className: "hover:underline",
-											children: "carltonpollinatorproject.org"
+											children: "carltonblooms.org"
 										})]
 									})
 								]
@@ -529,7 +527,7 @@ function RootComponent() {
 }
 //#endregion
 //#region src/routes/index.tsx
-var $$splitComponentImporter$3 = () => import("./routes-Chrba6iV.js");
+var $$splitComponentImporter$3 = () => import("./routes-1Dx00jQ3.js");
 var Route$3 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Carlton Pollinator Project — Restoring Native Ecology" },
@@ -558,7 +556,7 @@ var Route$3 = createFileRoute("/")({
 });
 //#endregion
 //#region src/routes/contact.tsx
-var $$splitComponentImporter$2 = () => import("./contact-ytIueu5f.js");
+var $$splitComponentImporter$2 = () => import("./contact-DZPVFUtj.js");
 var Route$2 = createFileRoute("/contact")({
 	head: () => ({ meta: [
 		{ title: "Contact Us — Carlton Pollinator Project" },
@@ -587,7 +585,7 @@ var Route$2 = createFileRoute("/contact")({
 });
 //#endregion
 //#region src/routes/our-projects.tsx
-var $$splitComponentImporter$1 = () => import("./our-projects-BJN2sQ0D.js");
+var $$splitComponentImporter$1 = () => import("./our-projects-CG6jXN4Q.js");
 var Route$1 = createFileRoute("/our-projects")({
 	head: () => ({ meta: [
 		{ title: "Our Projects — Carlton Pollinator Project" },
@@ -616,7 +614,7 @@ var Route$1 = createFileRoute("/our-projects")({
 });
 //#endregion
 //#region src/routes/photos.tsx
-var $$splitComponentImporter = () => import("./photos-DdRRRbct.js");
+var $$splitComponentImporter = () => import("./photos-C-zqdV7i.js");
 var Route = createFileRoute("/photos")({
 	head: () => ({ meta: [
 		{ title: "Photos — Carlton Pollinator Project" },
