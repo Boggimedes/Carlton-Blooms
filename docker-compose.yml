@@ -1,0 +1,25 @@
+# Carlton Blooms is TanStack Start with Nitro SSR, so it runs as its own Node
+# server rather than as a static drop inside the boggs-tech monolith. Traefik on
+# the shared `gateway` network routes to it by Host.
+
+name: carltonblooms
+
+services:
+  app:
+    build: .
+    image: carltonblooms/app:prod
+    container_name: carltonblooms-app
+    restart: unless-stopped
+    networks:
+      - gateway
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=gateway
+      - traefik.http.services.carltonblooms.loadbalancer.server.port=3000
+      - traefik.http.routers.carltonblooms.rule=Host(`carltonblooms.org`) || Host(`www.carltonblooms.org`)
+      - traefik.http.routers.carltonblooms.entrypoints=websecure
+      - traefik.http.routers.carltonblooms.tls.certresolver=le
+
+networks:
+  gateway:
+    external: true
