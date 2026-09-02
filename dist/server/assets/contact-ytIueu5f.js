@@ -1,4 +1,4 @@
-import { n as Button, r as cn } from "./router-DwznUUqe.js";
+import { n as Button, r as cn } from "./router-B3UYPihT.js";
 import * as React from "react";
 import { useState } from "react";
 import { jsx, jsxs } from "react/jsx-runtime";
@@ -40,12 +40,57 @@ function ContactForm() {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
-	const handleSubmit = (e) => {
+	const [status, setStatus] = useState("idle");
+	const [error, setError] = useState("");
+	const handleSubmit = async (e) => {
 		e.preventDefault();
-		const subject = encodeURIComponent(`Message from ${name}`);
-		const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-		window.location.href = `mailto:contact@carltonpollinatorproject.org?subject=${subject}&body=${body}`;
+		setStatus("sending");
+		setError("");
+		try {
+			const response = await fetch("/api/contact", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+					Accept: "application/json"
+				},
+				body: JSON.stringify({
+					name,
+					email,
+					message
+				})
+			});
+			if (!response.ok) {
+				const body = await response.json().catch(() => null);
+				throw new Error(body?.message ?? "That did not go through. Please try again, or call us.");
+			}
+			setStatus("sent");
+			setName("");
+			setEmail("");
+			setMessage("");
+		} catch (err) {
+			setStatus("error");
+			setError(err instanceof Error ? err.message : "Something went wrong.");
+		}
 	};
+	if (status === "sent") return /* @__PURE__ */ jsxs("div", {
+		className: "rounded-2xl border border-border bg-muted/50 p-8 text-center",
+		children: [
+			/* @__PURE__ */ jsx("h3", {
+				className: "font-serif text-xl font-semibold text-foreground",
+				children: "Thank you"
+			}),
+			/* @__PURE__ */ jsx("p", {
+				className: "mt-2 text-muted-foreground",
+				children: "Your message is on its way. We will get back to you soon."
+			}),
+			/* @__PURE__ */ jsx(Button, {
+				variant: "outline",
+				className: "mt-6",
+				onClick: () => setStatus("idle"),
+				children: "Send another message"
+			})
+		]
+	});
 	return /* @__PURE__ */ jsxs("form", {
 		onSubmit: handleSubmit,
 		className: "space-y-5",
@@ -94,12 +139,18 @@ function ContactForm() {
 			/* @__PURE__ */ jsxs(Button, {
 				type: "submit",
 				className: "w-full sm:w-auto",
-				children: [/* @__PURE__ */ jsx(Send, { className: "mr-2 h-4 w-4" }), "Send Message"]
+				disabled: status === "sending",
+				children: [/* @__PURE__ */ jsx(Send, { className: "mr-2 h-4 w-4" }), status === "sending" ? "Sending…" : "Send Message"]
+			}),
+			status === "error" && /* @__PURE__ */ jsx("p", {
+				role: "alert",
+				className: "text-sm font-medium text-destructive",
+				children: error
 			}),
 			/* @__PURE__ */ jsxs("p", {
 				className: "text-xs text-muted-foreground",
 				children: [
-					"This will open your email app. You can also call us at",
+					"You can also call us at",
 					" ",
 					/* @__PURE__ */ jsx("a", {
 						href: "tel:+15038301805",
