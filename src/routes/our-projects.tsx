@@ -2,9 +2,9 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Calendar, Leaf, Shovel } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import beetopiaGarden from "@/assets/beetopia-garden.jpg";
+import beetopiaAfter from "@/assets/beetopia-after.jpg";
 import hawnCreekPark from "@/assets/hawn-creek-park.jpg";
-import hawnCreekVolunteers from "@/assets/hawn-creek-volunteers.jpg";
+import volunteersGroup from "@/assets/volunteers-group.jpg";
 
 export const Route = createFileRoute("/our-projects")({
   head: () => ({
@@ -30,7 +30,7 @@ export const Route = createFileRoute("/our-projects")({
 
 const projects = [
   {
-    image: beetopiaGarden,
+    image: beetopiaAfter,
     title: "1st Street Pollinator Garden (Beetopia)",
     description:
       "Our flagship street-side garden in the heart of Carlton. Neighbors, volunteers, and local students transformed this space into a living classroom and a reliable food source for pollinators from spring through fall.",
@@ -44,7 +44,7 @@ const projects = [
     image: hawnCreekPark,
     title: "Hawn Creek Pocket Park",
     description:
-      "Our current focus: turning a small town park into a pollinator sanctuary. A winding path, benches, and native plantings make it a place where people can gather and pollinators can thrive.",
+      "Our current focus: turning a small town park into a pollinator sanctuary. The gravel path is in and the beds are turned — native trees, shrubs and wildflowers go in next, so people can gather here and pollinators can thrive.",
     details: [
       "Native wildflower, shrub and tree plantings",
       "Community work parties",
@@ -52,7 +52,7 @@ const projects = [
     ],
   },
   {
-    image: hawnCreekVolunteers,
+    image: volunteersGroup,
     title: "Community Volunteer Days",
     description:
       "In every restoration, our volunteers are the roots of everything we do. All ages and experience levels are welcome at our planting days and maintenance events.",

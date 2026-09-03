@@ -10,12 +10,12 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import heroButterfly from "@/assets/hero-butterfly.jpg";
-import homeBumblebee from "@/assets/home-bumblebee.jpg";
-import volunteerCamille from "@/assets/volunteer-camille.jpg";
-import beetopiaGarden from "@/assets/beetopia-garden.jpg";
+import heroSweatBee from "@/assets/pollinator-green-sweat-bee.jpg";
+import homeBumblebee from "@/assets/pollinator-bumblebee-beebalm.jpg";
+import volunteersGroup from "@/assets/volunteers-group.jpg";
+import beetopiaAfter from "@/assets/beetopia-after.jpg";
 import hawnCreekPark from "@/assets/hawn-creek-park.jpg";
-import hawnCreekVolunteers from "@/assets/hawn-creek-volunteers.jpg";
+import hawnCreekBeds from "@/assets/hawn-creek-beds.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -79,10 +79,10 @@ function HomePage() {
                 aria-hidden="true"
               />
               <img
-                src={heroButterfly}
-                alt="A monarch butterfly rests on bright native wildflowers"
-                width={1280}
-                height={720}
+                src={heroSweatBee}
+                alt="A metallic green sweat bee on a blanketflower in a Carlton pollinator garden"
+                width={1200}
+                height={1600}
                 className="relative rounded-2xl border border-border/50 shadow-xl"
                 loading="eager"
                 decoding="async"
@@ -99,7 +99,7 @@ function HomePage() {
             <div className="order-2 lg:order-1">
               <img
                 src={homeBumblebee}
-                alt="A Black-tailed Bumblebee collects pollen from a Catmint blossom"
+                alt="A bumblebee gathering pollen from wild bee balm"
                 width={800}
                 height={600}
                 className="rounded-2xl border border-border/50 shadow-lg"
@@ -243,6 +243,10 @@ function HomePage() {
               description="Use master gardener resources at our extension service for advice when garden issues arise."
             />
             <ActionCard
+              title="Shop pollinator-safe"
+              description="Check with your nursery to see that pollinator-safe methods are used to grow their plants. Buy organic seeds."
+            />
+            <ActionCard
               title="Join us"
               description="Whatever we do for our pollinators will support the ecosystems that all life depends upon."
             />
@@ -266,8 +270,8 @@ function HomePage() {
           <div className="mt-12 grid items-center gap-12 lg:grid-cols-2">
             <div>
               <img
-                src={volunteerCamille}
-                alt="A community volunteer plants native wildflowers in a local garden"
+                src={volunteersGroup}
+                alt="Carlton Pollinator Project volunteers gathered in front of the Beetopia garden beds"
                 width={800}
                 height={600}
                 className="rounded-2xl border border-border/50 shadow-lg"
@@ -300,8 +304,8 @@ function HomePage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="order-2 lg:order-1">
               <img
-                src={beetopiaGarden}
-                alt="The 1st Street Pollinator Garden, a colorful street-side bed with a Beetopia sign"
+                src={beetopiaAfter}
+                alt="The 1st Street Pollinator Garden in midsummer bloom, poppies and lavender filling the raised beds"
                 width={800}
                 height={600}
                 className="rounded-2xl border border-border/50 shadow-lg"
@@ -362,7 +366,7 @@ function HomePage() {
             <div className="overflow-hidden rounded-2xl border border-border/50 shadow-lg">
               <img
                 src={hawnCreekPark}
-                alt="Hawn Creek Pocket Park with a winding path, bench, and young native trees"
+                alt="The new gravel path and park sign at Hawn Creek Pocket Park"
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"
@@ -372,8 +376,8 @@ function HomePage() {
             </div>
             <div className="overflow-hidden rounded-2xl border border-border/50 shadow-lg">
               <img
-                src={hawnCreekVolunteers}
-                alt="Community volunteers planting native shrubs at Hawn Creek Pocket Park"
+                src={hawnCreekBeds}
+                alt="Freshly turned planting beds along the new path at Hawn Creek Pocket Park"
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"
