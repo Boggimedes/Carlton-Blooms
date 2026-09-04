@@ -271,7 +271,7 @@ function PhotosPage() {
       <GallerySection
         id="hawn-creek"
         eyebrow="In progress"
-        icon={<Shovel className="h-3.5 w-3.5 text-earth" aria-hidden="true" />}
+        icon={<Shovel className="h-3.5 w-3.5 text-foreground" aria-hidden="true" />}
         title="Hawn Creek Pocket Park"
         intro="Our current project. The path is in and the beds are turned; the natives go in next. Come see it before it fills, so you can watch it change."
         photos={parkPhotos}
