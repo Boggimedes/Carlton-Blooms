@@ -12,6 +12,7 @@ const navItems = [
   { label: "Our Projects", to: "/our-projects" },
   { label: "Photos", to: "/photos" },
   { label: "Contact", to: "/contact" },
+  { label: "Donate", to: "/donate" },
 ];
 
 export function Header() {

@@ -10,12 +10,12 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import heroSweatBee from "@/assets/pollinator-green-sweat-bee.jpg";
-import homeBumblebee from "@/assets/pollinator-bumblebee-beebalm.jpg";
+import heroPaintedLady from "@/assets/pollinator-painted-lady.jpg";
+import homeBumblebee from "@/assets/pollinator-bumblebee.jpg";
 import volunteersGroup from "@/assets/volunteers-group.jpg";
 import beetopiaAfter from "@/assets/beetopia-after.jpg";
 import hawnCreekPark from "@/assets/hawn-creek-park.jpg";
-import hawnCreekBeds from "@/assets/hawn-creek-beds.jpg";
+import hawnCreekChannel from "@/assets/hawn-creek-channel.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -79,11 +79,11 @@ function HomePage() {
                 aria-hidden="true"
               />
               <img
-                src={heroSweatBee}
-                alt="A metallic green sweat bee on a blanketflower in a Carlton pollinator garden"
+                src={heroPaintedLady}
+                alt="A painted lady butterfly resting on blue gilia in a Carlton pollinator garden"
                 width={1200}
-                height={1600}
-                className="relative rounded-2xl border border-border/50 shadow-xl"
+                height={900}
+                className="relative aspect-[4/3] w-full rounded-2xl border border-border/50 object-cover shadow-xl"
                 loading="eager"
                 decoding="async"
               />
@@ -99,9 +99,9 @@ function HomePage() {
             <div className="order-2 lg:order-1">
               <img
                 src={homeBumblebee}
-                alt="A bumblebee gathering pollen from wild bee balm"
-                width={800}
-                height={600}
+                alt="A bumblebee heavy with pollen on a spike of purple blooms"
+                width={1154}
+                height={1506}
                 className="rounded-2xl border border-border/50 shadow-lg"
                 loading="lazy"
                 decoding="async"
@@ -116,11 +116,6 @@ function HomePage() {
                 Carlton neighbors and community resources to support pollinators and wildlife through
                 local restoration projects and ecology-based classes.
               </p>
-              <p className="mt-4 text-muted-foreground">
-                We believe every yard, school garden, and public area has the potential to be a
-                sanctuary for bees, butterflies, moths, and birds — and a source of wonder and
-                beauty for our community.
-              </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild variant="secondary">
                   <Link to="/contact">Volunteer</Link>
@@ -129,7 +124,7 @@ function HomePage() {
                   <Link to="/our-projects">Classes</Link>
                 </Button>
                 <Button asChild>
-                  <Link to="/contact">Donate</Link>
+                  <Link to="/donate">Donate</Link>
                 </Button>
               </div>
             </div>
@@ -146,13 +141,13 @@ function HomePage() {
               Why it matters
             </div>
             <h2 className="mt-6 font-serif text-3xl font-semibold text-foreground sm:text-4xl">
-              Foundation of our ecosystems — The Power of Bees
+              Foundation of our Ecosystems — The Power of Bees
             </h2>
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <FactCard
               icon={<Sprout className="h-6 w-6" />}
-              text="Bees are a keystone species, the glue that holds our ecosystems together."
+              text="Bees are a keystone species, and the glue which holds ecosystems together."
             />
             <FactCard
               icon={<Leaf className="h-6 w-6" />}
@@ -224,7 +219,7 @@ function HomePage() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <ActionCard
               title="Plant natives"
-              description="Many pollinators need natives to complete their life cycle. Every plant makes a difference."
+              description="Many pollinators need native plants to complete their life cycle."
             />
             <ActionCard
               title="Create habitat"
@@ -248,7 +243,7 @@ function HomePage() {
             />
             <ActionCard
               title="Join us"
-              description="Whatever we do for our pollinators will support the ecosystems that all life depends upon."
+              description="Whatever we do for our pollinators will support the ecosystems upon which all life depends."
             />
           </div>
         </div>
@@ -280,12 +275,6 @@ function HomePage() {
               />
             </div>
             <blockquote className="relative">
-              <div
-                className="absolute -left-4 -top-6 font-serif text-8xl leading-none text-goldenrod/30"
-                aria-hidden="true"
-              >
-                “
-              </div>
               <p className="relative font-serif text-2xl font-medium leading-relaxed text-foreground sm:text-3xl">
                 Never doubt that a small group of thoughtful citizens can change the world; indeed,
                 it’s the only thing that ever has.
@@ -321,7 +310,7 @@ function HomePage() {
               <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
                 Our flagship street-side garden supports pollinators in the heart of Carlton.
                 Neighbors, volunteers, and local students have transformed this space into a living
-                classroom and a reliable food source for pollinators from spring through fall.
+                classroom and a reliable food source for pollinators.
               </p>
               <ul className="mt-6 space-y-3">
                 {[
@@ -376,8 +365,8 @@ function HomePage() {
             </div>
             <div className="overflow-hidden rounded-2xl border border-border/50 shadow-lg">
               <img
-                src={hawnCreekBeds}
-                alt="Freshly turned planting beds along the new path at Hawn Creek Pocket Park"
+                src={hawnCreekChannel}
+                alt="The creek channel running between birches at Hawn Creek Pocket Park"
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"

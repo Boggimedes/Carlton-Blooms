@@ -52,7 +52,7 @@ export function Footer() {
               <Link to="/contact" className="w-fit hover:text-goldenrod-light hover:underline">
                 Contact Us
               </Link>
-              <Link to="/contact" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/donate" className="w-fit hover:text-goldenrod-light hover:underline">
                 Donate
               </Link>
             </nav>

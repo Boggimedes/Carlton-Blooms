@@ -37,14 +37,14 @@ const projects = [
     details: [
       "Before-and-after transformation",
       "Volunteer planting days",
-      "Featured at Carlton Fun Days Festival",
+      "Carlton Fun Days Festival",
     ],
   },
   {
     image: hawnCreekPark,
     title: "Hawn Creek Pocket Park",
     description:
-      "Our current focus: turning a small town park into a pollinator sanctuary. The gravel path is in and the beds are turned — native trees, shrubs and wildflowers go in next, so people can gather here and pollinators can thrive.",
+      "Our current focus: turning one of our small parks into a pollinator/wildlife sanctuary. We will restore habitat by clearing out invasive plants and replanting with native trees, shrubs and wildflowers.",
     details: [
       "Native wildflower, shrub and tree plantings",
       "Community work parties",
@@ -55,7 +55,7 @@ const projects = [
     image: volunteersGroup,
     title: "Community Volunteer Days",
     description:
-      "In every restoration, our volunteers are the roots of everything we do. All ages and experience levels are welcome at our planting days and maintenance events.",
+      "When a community comes together unimaginable things become possible. Come join us if you can, all ages and experience levels are welcome, whether for an hour or an afternoon, every gift of time makes a difference.",
     details: [
       "All tools and guidance provided",
       "Family-friendly work parties",
@@ -198,7 +198,7 @@ function OurProjectsPage() {
               variant="outline"
               className="border-earth-foreground/30 text-earth-foreground hover:bg-earth-foreground/10 hover:text-earth-foreground"
             >
-              <Link to="/contact">Donate</Link>
+              <Link to="/donate">Donate</Link>
             </Button>
           </div>
         </div>

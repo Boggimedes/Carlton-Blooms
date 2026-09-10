@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DonateRouteImport } from './routes/donate'
 import { Route as OurProjectsRouteImport } from './routes/our-projects'
 import { Route as PhotosRouteImport } from './routes/photos'
 
@@ -22,6 +23,11 @@ const IndexRoute = IndexRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DonateRoute = DonateRouteImport.update({
+  id: '/donate',
+  path: '/donate',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OurProjectsRoute = OurProjectsRouteImport.update({
@@ -38,12 +44,14 @@ const PhotosRoute = PhotosRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
+  '/donate': typeof DonateRoute
   '/our-projects': typeof OurProjectsRoute
   '/photos': typeof PhotosRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
+  '/donate': typeof DonateRoute
   '/our-projects': typeof OurProjectsRoute
   '/photos': typeof PhotosRoute
 }
@@ -51,20 +59,22 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
+  '/donate': typeof DonateRoute
   '/our-projects': typeof OurProjectsRoute
   '/photos': typeof PhotosRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/contact' | '/our-projects' | '/photos'
+  fullPaths: '/' | '/contact' | '/donate' | '/our-projects' | '/photos'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/contact' | '/our-projects' | '/photos'
-  id: '__root__' | '/' | '/contact' | '/our-projects' | '/photos'
+  to: '/' | '/contact' | '/donate' | '/our-projects' | '/photos'
+  id: '__root__' | '/' | '/contact' | '/donate' | '/our-projects' | '/photos'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ContactRoute: typeof ContactRoute
+  DonateRoute: typeof DonateRoute
   OurProjectsRoute: typeof OurProjectsRoute
   PhotosRoute: typeof PhotosRoute
 }
@@ -83,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/donate': {
+      id: '/donate'
+      path: '/donate'
+      fullPath: '/donate'
+      preLoaderRoute: typeof DonateRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/our-projects': {
@@ -105,6 +122,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ContactRoute: ContactRoute,
+  DonateRoute: DonateRoute,
   OurProjectsRoute: OurProjectsRoute,
   PhotosRoute: PhotosRoute,
 }

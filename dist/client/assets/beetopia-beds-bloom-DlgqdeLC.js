@@ -1,0 +1,1 @@
+var e=`/assets/beetopia-beds-bloom-DdqNfy9K.jpg`;export{e as t};
