@@ -11,7 +11,7 @@ import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 //#region src/styles.css?url
-var styles_default = "/assets/styles-BOT9jp09.css";
+var styles_default = "/assets/styles-BWLjb7EV.css";
 //#endregion
 //#region src/lib/lovable-error-reporting.ts
 function reportLovableError(error, context = {}) {
@@ -531,7 +531,7 @@ function RootComponent() {
 }
 //#endregion
 //#region src/routes/index.tsx
-var $$splitComponentImporter$4 = () => import("./routes-DZj8MFqn.js");
+var $$splitComponentImporter$4 = () => import("./routes-DNKxJ1sd.js");
 var Route$4 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Carlton Pollinator Project — Restoring Native Ecology" },
@@ -560,7 +560,7 @@ var Route$4 = createFileRoute("/")({
 });
 //#endregion
 //#region src/routes/contact.tsx
-var $$splitComponentImporter$3 = () => import("./contact-DoKJgD0A.js");
+var $$splitComponentImporter$3 = () => import("./contact-CBT68eTi.js");
 var Route$3 = createFileRoute("/contact")({
 	head: () => ({ meta: [
 		{ title: "Contact Us — Carlton Pollinator Project" },
@@ -618,7 +618,7 @@ var Route$2 = createFileRoute("/donate")({
 });
 //#endregion
 //#region src/routes/our-projects.tsx
-var $$splitComponentImporter$1 = () => import("./our-projects-ByBa_Tbn.js");
+var $$splitComponentImporter$1 = () => import("./our-projects-BMa5qrZ6.js");
 var Route$1 = createFileRoute("/our-projects")({
 	head: () => ({ meta: [
 		{ title: "Our Projects — Carlton Pollinator Project" },
@@ -647,7 +647,7 @@ var Route$1 = createFileRoute("/our-projects")({
 });
 //#endregion
 //#region src/routes/photos.tsx
-var $$splitComponentImporter = () => import("./photos-DLvLur5J.js");
+var $$splitComponentImporter = () => import("./photos-DMiftP0F.js");
 var Route = createFileRoute("/photos")({
 	head: () => ({ meta: [
 		{ title: "Photos — Carlton Pollinator Project" },
@@ -717,4 +717,4 @@ var getRouter = () => {
 	});
 };
 //#endregion
-export { getRouter, Button as n, cn as r, router_exports as t };
+export { getRouter, Button as n, router_exports as t };

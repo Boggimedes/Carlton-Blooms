@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Leaf, Mail, MapPin, Phone } from "lucide-react";
 
-import { ContactForm } from "@/components/ContactForm";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -48,15 +47,15 @@ function ContactPage() {
       {/* Contact */}
       <section className="bg-background py-16 sm:py-24">
         <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-3">
-            <div className="space-y-8 lg:col-span-1">
+          <div className="mx-auto max-w-2xl">
+            <div className="space-y-8">
               <div>
                 <h2 className="font-serif text-2xl font-semibold text-foreground">
                   How to reach us
                 </h2>
                 <p className="mt-3 text-muted-foreground">
-                  Prefer a quick call? Want to sign up for a planting day? Use the information below
-                  or send us a message.
+                  Prefer a quick call? Want to sign up for a planting day? Reach us any of these
+                  ways and we will get back to you.
                 </p>
               </div>
 
@@ -91,10 +90,10 @@ function ContactPage() {
                   <div>
                     <p className="font-medium text-foreground">Email</p>
                     <a
-                      href="mailto:contact@carltonblooms.org"
+                      href="mailto:robin.geck@icloud.com"
                       className="text-muted-foreground hover:text-sage-dark hover:underline"
                     >
-                      contact@carltonblooms.org
+                      robin.geck@icloud.com
                     </a>
                   </div>
                 </li>
@@ -113,16 +112,6 @@ function ContactPage() {
                   </div>
                 </li>
               </ul>
-            </div>
-
-            <div className="rounded-3xl border border-border bg-muted/50 p-6 shadow-sm sm:p-10 lg:col-span-2">
-              <h2 className="font-serif text-2xl font-semibold text-foreground">Send a message</h2>
-              <p className="mt-2 text-muted-foreground">
-                Tell us how you would like to get involved and we will get back to you.
-              </p>
-              <div className="mt-6">
-                <ContactForm />
-              </div>
             </div>
           </div>
         </div>
