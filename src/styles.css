@@ -77,7 +77,7 @@
   --primary: oklch(0.745 0.099 133.133);
   --primary-foreground: oklch(0.992 0.037 31.466);
 
-  --secondary: oklch(0.766 0.139 8.031);
+  --secondary: #fa8072;
   --secondary-foreground: oklch(0 0 0);
 
   --muted: oklch(0.94 0.03 133.133);
@@ -114,7 +114,7 @@
   --earth: oklch(0.717 0.094 42.592);
   --earth-foreground: oklch(0.992 0.037 31.466);
   --earth-light: oklch(0.449 0.169 14.639);
-  --goldenrod: oklch(0.766 0.139 8.031);
+  --goldenrod: #fa8072;
   --goldenrod-foreground: oklch(0 0 0);
   --goldenrod-light: oklch(0.853 0.23 42.603);
   --cream: oklch(0.992 0.037 31.466);

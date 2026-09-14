@@ -122,7 +122,7 @@ function OurProjectsPage() {
                       </li>
                     ))}
                   </ul>
-                  <Button asChild className="mt-6">
+                  <Button asChild variant="secondary" className="mt-6">
                     <Link to="/contact">
                       <Shovel className="mr-2 h-4 w-4" />
                       Get involved
@@ -131,6 +131,18 @@ function OurProjectsPage() {
                 </div>
               </article>
             ))}
+          </div>
+          <div className="mt-16 grid gap-6 sm:grid-cols-2">
+            <div className="rounded-2xl border border-border bg-muted/50 p-6">
+              <p className="text-sm font-semibold uppercase tracking-widest text-sage-dark">Next dig</p>
+              <p className="mt-2 font-serif text-2xl font-semibold text-foreground">September 26, 2026</p>
+              <p className="mt-1 text-muted-foreground">8:00 AM - 12:00 PM</p>
+            </div>
+            <div className="rounded-2xl border border-border bg-muted/50 p-6">
+              <p className="text-sm font-semibold uppercase tracking-widest text-sage-dark">Next class</p>
+              <p className="mt-2 font-serif text-2xl font-semibold text-foreground">January 26, 2027</p>
+              <p className="mt-1 text-muted-foreground">5:30 PM - 7:00 PM</p>
+            </div>
           </div>
         </div>
       </section>
@@ -173,7 +185,7 @@ function OurProjectsPage() {
               />
               <ClassCard
                 title="Winter 2027 Restoring Habitat"
-                description="Presented by CPP and SWCD — date TBA. Pollinators and native plants for every yard."
+                description="Presented by CPP and SWCD on January 26, 2027, from 5:30 to 7:00 PM. Pollinators and native plants for every yard."
               />
             </div>
           </div>

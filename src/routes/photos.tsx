@@ -6,6 +6,8 @@ import volunteersGroup from "@/assets/volunteers-group.jpg";
 import volunteerWatering from "@/assets/volunteer-watering.jpg";
 import volunteerSoil from "@/assets/volunteer-soil.jpg";
 import volunteerPlanting from "@/assets/volunteer-planting.jpg";
+import beetopiaGardener from "@/assets/beetopia-gardener.jpg";
+import volunteerGarden from "@/assets/7C0F8134-A224-4925-9842-434F682FD159.jpeg";
 import kidsButterfly from "@/assets/kids-butterfly.jpg";
 import kidsGravel from "@/assets/kids-gravel.jpg";
 import kidsFenceArt from "@/assets/kids-fence-art.jpg";
@@ -18,7 +20,6 @@ import beetopiaSign from "@/assets/beetopia-sign.jpg";
 import beetopiaBedsBloom from "@/assets/beetopia-beds-bloom.jpg";
 import beetopiaLearningCorner from "@/assets/beetopia-learning-corner.jpg";
 import beetopiaBenchMural from "@/assets/beetopia-bench-mural.jpg";
-import beetopiaGardener from "@/assets/beetopia-gardener.jpg";
 import beetopiaCoreopsisBed from "@/assets/beetopia-coreopsis-bed.jpg";
 import beetopiaAster from "@/assets/beetopia-aster.jpg";
 import beetopiaGoldenrod from "@/assets/beetopia-goldenrod.jpg";
@@ -43,6 +44,7 @@ import pollinatorBeePearlyEverlasting from "@/assets/pollinator-bee-pearly-everl
 import pollinatorBeeCoreopsis from "@/assets/pollinator-bee-coreopsis.jpg";
 import pollinatorBumblebeeOceanspray from "@/assets/pollinator-bumblebee-oceanspray.jpg";
 import pollinatorHoverflyCinquefoil from "@/assets/pollinator-hoverfly-cinquefoil.jpg";
+import bee8962 from "@/assets/IMG_8962.jpeg";
 
 export const Route = createFileRoute("/photos")({
   head: () => ({
@@ -93,6 +95,10 @@ const volunteerPhotos: Photo[] = [
     src: kidsButterfly,
     alt: "A child holding a painted lady butterfly on one finger",
   },
+  {
+    src: volunteerGarden,
+    alt: "A volunteer standing in the blooming Beetopia pollinator garden",
+  },
 ];
 
 const beetopiaPhotos: Photo[] = [
@@ -119,10 +125,6 @@ const beetopiaPhotos: Photo[] = [
   {
     src: beetopiaBenchMural,
     alt: "A children's painted mural of a meadow hung on the garden fence behind a bench",
-  },
-  {
-    src: beetopiaGardener,
-    alt: "A volunteer standing among the raised beds of the pollinator garden in full bloom",
   },
   {
     src: beetopiaCoreopsisBed,
@@ -238,8 +240,8 @@ const naturePhotos: Photo[] = [
     alt: "A pollen-covered bee on a yellow and red coreopsis bloom",
   },
   {
-    src: pollinatorBumblebeeOceanspray,
-    alt: "A black bumblebee with a yellow band feeding on a spray of oceanspray flowers",
+    src: bee8962,
+    alt: "A bumblebee resting on a purple flower",
   },
   {
     src: pollinatorHoverflyCinquefoil,

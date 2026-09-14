@@ -1,4 +1,4 @@
-import { n as Button } from "./router-CubWAVKd.js";
+import { n as Button } from "./router-ElBfiKct.js";
 import { t as beetopia_beds_bloom_default } from "./beetopia-beds-bloom-BfhKYumX.js";
 import { n as pollinator_bumblebee_default, r as pollinator_painted_lady_default, t as hawn_creek_channel_default } from "./hawn-creek-channel-DN8QIN9A.js";
 import { n as beetopia_after_default, r as volunteers_group_default, t as hawn_creek_park_default } from "./hawn-creek-park-BYIE17JM.js";
@@ -13,6 +13,9 @@ var volunteer_soil_default = "/assets/volunteer-soil-jJ0VKa7B.jpg";
 //#endregion
 //#region src/assets/volunteer-planting.jpg
 var volunteer_planting_default = "/assets/volunteer-planting-DTyHMGHg.jpg";
+//#endregion
+//#region src/assets/7C0F8134-A224-4925-9842-434F682FD159.jpeg
+var _7C0F8134_A224_4925_9842_434F682FD159_default = "/assets/7C0F8134-A224-4925-9842-434F682FD159-DL1sKmBv.jpeg";
 //#endregion
 //#region src/assets/kids-butterfly.jpg
 var kids_butterfly_default = "/assets/kids-butterfly-wiRKkMdp.jpg";
@@ -37,9 +40,6 @@ var beetopia_learning_corner_default = "/assets/beetopia-learning-corner-j0GiRfX
 //#endregion
 //#region src/assets/beetopia-bench-mural.jpg
 var beetopia_bench_mural_default = "/assets/beetopia-bench-mural-Do5yvVS2.jpg";
-//#endregion
-//#region src/assets/beetopia-gardener.jpg
-var beetopia_gardener_default = "/assets/beetopia-gardener-fabpBQqR.jpg";
 //#endregion
 //#region src/assets/beetopia-coreopsis-bed.jpg
 var beetopia_coreopsis_bed_default = "/assets/beetopia-coreopsis-bed-DO9hTZd2.jpg";
@@ -101,11 +101,11 @@ var pollinator_bee_pearly_everlasting_default = "/assets/pollinator-bee-pearly-e
 //#region src/assets/pollinator-bee-coreopsis.jpg
 var pollinator_bee_coreopsis_default = "/assets/pollinator-bee-coreopsis-BTS28Kh0.jpg";
 //#endregion
-//#region src/assets/pollinator-bumblebee-oceanspray.jpg
-var pollinator_bumblebee_oceanspray_default = "/assets/pollinator-bumblebee-oceanspray-CJhYkmGU.jpg";
-//#endregion
 //#region src/assets/pollinator-hoverfly-cinquefoil.jpg
 var pollinator_hoverfly_cinquefoil_default = "/assets/pollinator-hoverfly-cinquefoil-BuOOqhxj.jpg";
+//#endregion
+//#region src/assets/IMG_8962.jpeg
+var IMG_8962_default = "/assets/IMG_8962-CplNeXft.jpeg";
 //#endregion
 //#region src/routes/photos.tsx?tsr-split=component
 var volunteerPhotos = [
@@ -132,6 +132,10 @@ var volunteerPhotos = [
 	{
 		src: kids_butterfly_default,
 		alt: "A child holding a painted lady butterfly on one finger"
+	},
+	{
+		src: _7C0F8134_A224_4925_9842_434F682FD159_default,
+		alt: "A volunteer standing in the blooming Beetopia pollinator garden"
 	}
 ];
 var beetopiaPhotos = [
@@ -158,10 +162,6 @@ var beetopiaPhotos = [
 	{
 		src: beetopia_bench_mural_default,
 		alt: "A children's painted mural of a meadow hung on the garden fence behind a bench"
-	},
-	{
-		src: beetopia_gardener_default,
-		alt: "A volunteer standing among the raised beds of the pollinator garden in full bloom"
 	},
 	{
 		src: beetopia_coreopsis_bed_default,
@@ -274,8 +274,8 @@ var naturePhotos = [
 		alt: "A pollen-covered bee on a yellow and red coreopsis bloom"
 	},
 	{
-		src: pollinator_bumblebee_oceanspray_default,
-		alt: "A black bumblebee with a yellow band feeding on a spray of oceanspray flowers"
+		src: IMG_8962_default,
+		alt: "A bumblebee resting on a purple flower"
 	},
 	{
 		src: pollinator_hoverfly_cinquefoil_default,

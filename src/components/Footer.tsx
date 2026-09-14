@@ -16,17 +16,17 @@ export function Footer() {
             </p>
             <ul className="space-y-3 text-sm text-cream/90">
               <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-goldenrod" aria-hidden="true" />
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
                 <span>Carlton, Oregon</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 shrink-0 text-goldenrod" aria-hidden="true" />
+                <Phone className="h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
                 <a href="tel:+15038301805" className="hover:underline">
                   (503) 830-1805
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Globe className="h-4 w-4 shrink-0 text-goldenrod" aria-hidden="true" />
+                <Globe className="h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
                 <a href="https://carltonblooms.org" className="hover:underline">
                   carltonblooms.org
                 </a>

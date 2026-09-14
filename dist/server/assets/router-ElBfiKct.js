@@ -11,7 +11,7 @@ import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 //#region src/styles.css?url
-var styles_default = "/assets/styles-BWLjb7EV.css";
+var styles_default = "/assets/styles-CcYNLu-_.css";
 //#endregion
 //#region src/lib/lovable-error-reporting.ts
 function reportLovableError(error, context = {}) {
@@ -278,14 +278,14 @@ function Footer() {
 									/* @__PURE__ */ jsxs("li", {
 										className: "flex items-start gap-3",
 										children: [/* @__PURE__ */ jsx(MapPin, {
-											className: "mt-0.5 h-4 w-4 shrink-0 text-goldenrod",
+											className: "mt-0.5 h-4 w-4 shrink-0 text-sage",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("span", { children: "Carlton, Oregon" })]
 									}),
 									/* @__PURE__ */ jsxs("li", {
 										className: "flex items-center gap-3",
 										children: [/* @__PURE__ */ jsx(Phone, {
-											className: "h-4 w-4 shrink-0 text-goldenrod",
+											className: "h-4 w-4 shrink-0 text-sage",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("a", {
 											href: "tel:+15038301805",
@@ -296,7 +296,7 @@ function Footer() {
 									/* @__PURE__ */ jsxs("li", {
 										className: "flex items-center gap-3",
 										children: [/* @__PURE__ */ jsx(Globe, {
-											className: "h-4 w-4 shrink-0 text-goldenrod",
+											className: "h-4 w-4 shrink-0 text-sage",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("a", {
 											href: "https://carltonblooms.org",
@@ -531,7 +531,7 @@ function RootComponent() {
 }
 //#endregion
 //#region src/routes/index.tsx
-var $$splitComponentImporter$4 = () => import("./routes-DNKxJ1sd.js");
+var $$splitComponentImporter$4 = () => import("./routes-bmnnrrQ2.js");
 var Route$4 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Carlton Pollinator Project — Restoring Native Ecology" },
@@ -618,7 +618,7 @@ var Route$2 = createFileRoute("/donate")({
 });
 //#endregion
 //#region src/routes/our-projects.tsx
-var $$splitComponentImporter$1 = () => import("./our-projects-BMa5qrZ6.js");
+var $$splitComponentImporter$1 = () => import("./our-projects-vlVOrYcl.js");
 var Route$1 = createFileRoute("/our-projects")({
 	head: () => ({ meta: [
 		{ title: "Our Projects — Carlton Pollinator Project" },
@@ -647,7 +647,7 @@ var Route$1 = createFileRoute("/our-projects")({
 });
 //#endregion
 //#region src/routes/photos.tsx
-var $$splitComponentImporter = () => import("./photos-DMiftP0F.js");
+var $$splitComponentImporter = () => import("./photos-Bv1nDTYo.js");
 var Route = createFileRoute("/photos")({
 	head: () => ({ meta: [
 		{ title: "Photos — Carlton Pollinator Project" },

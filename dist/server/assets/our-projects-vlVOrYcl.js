@@ -1,4 +1,4 @@
-import { n as Button } from "./router-CubWAVKd.js";
+import { n as Button } from "./router-ElBfiKct.js";
 import { n as beetopia_after_default, r as volunteers_group_default, t as hawn_creek_park_default } from "./hawn-creek-park-BYIE17JM.js";
 import { Link } from "@tanstack/react-router";
 import { jsx, jsxs } from "react/jsx-runtime";
@@ -65,9 +65,9 @@ function OurProjectsPage() {
 			}),
 			/* @__PURE__ */ jsx("section", {
 				className: "bg-background py-16 sm:py-24",
-				children: /* @__PURE__ */ jsx("div", {
+				children: /* @__PURE__ */ jsxs("div", {
 					className: "mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8",
-					children: /* @__PURE__ */ jsx("div", {
+					children: [/* @__PURE__ */ jsx("div", {
 						className: "space-y-16",
 						children: projects.map((project, index) => /* @__PURE__ */ jsxs("article", {
 							className: "grid items-center gap-8 lg:grid-cols-2 lg:gap-12",
@@ -105,6 +105,7 @@ function OurProjectsPage() {
 									}),
 									/* @__PURE__ */ jsx(Button, {
 										asChild: true,
+										variant: "secondary",
 										className: "mt-6",
 										children: /* @__PURE__ */ jsxs(Link, {
 											to: "/contact",
@@ -114,7 +115,42 @@ function OurProjectsPage() {
 								]
 							})]
 						}, project.title))
-					})
+					}), /* @__PURE__ */ jsxs("div", {
+						className: "mt-16 grid gap-6 sm:grid-cols-2",
+						children: [/* @__PURE__ */ jsxs("div", {
+							className: "rounded-2xl border border-border bg-muted/50 p-6",
+							children: [
+								/* @__PURE__ */ jsx("p", {
+									className: "text-sm font-semibold uppercase tracking-widest text-sage-dark",
+									children: "Next dig"
+								}),
+								/* @__PURE__ */ jsx("p", {
+									className: "mt-2 font-serif text-2xl font-semibold text-foreground",
+									children: "September 26, 2026"
+								}),
+								/* @__PURE__ */ jsx("p", {
+									className: "mt-1 text-muted-foreground",
+									children: "8:00 AM - 12:00 PM"
+								})
+							]
+						}), /* @__PURE__ */ jsxs("div", {
+							className: "rounded-2xl border border-border bg-muted/50 p-6",
+							children: [
+								/* @__PURE__ */ jsx("p", {
+									className: "text-sm font-semibold uppercase tracking-widest text-sage-dark",
+									children: "Next class"
+								}),
+								/* @__PURE__ */ jsx("p", {
+									className: "mt-2 font-serif text-2xl font-semibold text-foreground",
+									children: "January 26, 2027"
+								}),
+								/* @__PURE__ */ jsx("p", {
+									className: "mt-1 text-muted-foreground",
+									children: "5:30 PM - 7:00 PM"
+								})
+							]
+						})]
+					})]
 				})
 			}),
 			/* @__PURE__ */ jsx("section", {
@@ -164,7 +200,7 @@ function OurProjectsPage() {
 								}),
 								/* @__PURE__ */ jsx(ClassCard, {
 									title: "Winter 2027 Restoring Habitat",
-									description: "Presented by CPP and SWCD — date TBA. Pollinators and native plants for every yard."
+									description: "Presented by CPP and SWCD on January 26, 2027, from 5:30 to 7:00 PM. Pollinators and native plants for every yard."
 								})
 							]
 						})]
