@@ -11,7 +11,7 @@ import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 //#region src/styles.css?url
-var styles_default = "/assets/styles-CcYNLu-_.css";
+var styles_default = "/assets/styles-CBeUQDfj.css";
 //#endregion
 //#region src/lib/lovable-error-reporting.ts
 function reportLovableError(error, context = {}) {
@@ -311,39 +311,39 @@ function Footer() {
 					/* @__PURE__ */ jsxs("div", {
 						className: "space-y-5",
 						children: [/* @__PURE__ */ jsx("h3", {
-							className: "font-serif text-lg font-semibold text-goldenrod-light",
+							className: "font-serif text-lg font-semibold text-goldenrod",
 							children: "Explore"
 						}), /* @__PURE__ */ jsxs("nav", {
 							className: "flex flex-col gap-3 text-sm text-cream/90",
 							children: [
 								/* @__PURE__ */ jsx(Link, {
 									to: "/",
-									className: "w-fit hover:text-goldenrod-light hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Home"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/our-projects",
-									className: "w-fit hover:text-goldenrod-light hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Our Projects"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/our-projects",
-									className: "w-fit hover:text-goldenrod-light hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Classes"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/photos",
-									className: "w-fit hover:text-goldenrod-light hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Photos"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/contact",
-									className: "w-fit hover:text-goldenrod-light hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Contact Us"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/donate",
-									className: "w-fit hover:text-goldenrod-light hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Donate"
 								})
 							]
@@ -353,7 +353,7 @@ function Footer() {
 						className: "space-y-5 lg:col-span-1",
 						children: [
 							/* @__PURE__ */ jsx("h3", {
-								className: "font-serif text-lg font-semibold text-goldenrod-light",
+								className: "font-serif text-lg font-semibold text-goldenrod",
 								children: "Get Involved"
 							}),
 							/* @__PURE__ */ jsx("p", {
@@ -531,7 +531,7 @@ function RootComponent() {
 }
 //#endregion
 //#region src/routes/index.tsx
-var $$splitComponentImporter$4 = () => import("./routes-bmnnrrQ2.js");
+var $$splitComponentImporter$4 = () => import("./routes-C1bu6zQa.js");
 var Route$4 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Carlton Pollinator Project — Restoring Native Ecology" },
@@ -618,7 +618,7 @@ var Route$2 = createFileRoute("/donate")({
 });
 //#endregion
 //#region src/routes/our-projects.tsx
-var $$splitComponentImporter$1 = () => import("./our-projects-vlVOrYcl.js");
+var $$splitComponentImporter$1 = () => import("./our-projects-COWY9I7q.js");
 var Route$1 = createFileRoute("/our-projects")({
 	head: () => ({ meta: [
 		{ title: "Our Projects — Carlton Pollinator Project" },
@@ -647,7 +647,7 @@ var Route$1 = createFileRoute("/our-projects")({
 });
 //#endregion
 //#region src/routes/photos.tsx
-var $$splitComponentImporter = () => import("./photos-Bv1nDTYo.js");
+var $$splitComponentImporter = () => import("./photos-sS1pxcry.js");
 var Route = createFileRoute("/photos")({
 	head: () => ({ meta: [
 		{ title: "Photos — Carlton Pollinator Project" },

@@ -466,7 +466,7 @@ function HomePage() {
               asChild
               size="lg"
               variant="outline"
-              className="border-sage-foreground/30 text-sage-foreground hover:bg-sage-foreground/10 hover:text-sage-foreground"
+              className="border-sage-foreground/30 text-foreground hover:bg-sage-foreground/10 hover:text-foreground"
             >
               <Link to="/contact">Contact Us</Link>
             </Button>

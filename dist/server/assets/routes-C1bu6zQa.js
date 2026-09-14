@@ -1,4 +1,4 @@
-import { n as Button } from "./router-ElBfiKct.js";
+import { n as Button } from "./router-CaR4Xl2t.js";
 import { n as pollinator_bumblebee_default, r as pollinator_painted_lady_default, t as hawn_creek_channel_default } from "./hawn-creek-channel-DN8QIN9A.js";
 import { n as beetopia_after_default, r as volunteers_group_default, t as hawn_creek_park_default } from "./hawn-creek-park-BYIE17JM.js";
 import { Link } from "@tanstack/react-router";
@@ -542,7 +542,7 @@ function HomePage() {
 								asChild: true,
 								size: "lg",
 								variant: "outline",
-								className: "border-sage-foreground/30 text-sage-foreground hover:bg-sage-foreground/10 hover:text-sage-foreground",
+								className: "border-sage-foreground/30 text-foreground hover:bg-sage-foreground/10 hover:text-foreground",
 								children: /* @__PURE__ */ jsx(Link, {
 									to: "/contact",
 									children: "Contact Us"

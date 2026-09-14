@@ -35,31 +35,31 @@ export function Footer() {
           </div>
 
           <div className="space-y-5">
-            <h3 className="font-serif text-lg font-semibold text-goldenrod-light">Explore</h3>
+            <h3 className="font-serif text-lg font-semibold text-goldenrod">Explore</h3>
             <nav className="flex flex-col gap-3 text-sm text-cream/90">
-              <Link to="/" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/" className="w-fit hover:text-goldenrod hover:underline">
                 Home
               </Link>
-              <Link to="/our-projects" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/our-projects" className="w-fit hover:text-goldenrod hover:underline">
                 Our Projects
               </Link>
-              <Link to="/our-projects" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/our-projects" className="w-fit hover:text-goldenrod hover:underline">
                 Classes
               </Link>
-              <Link to="/photos" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/photos" className="w-fit hover:text-goldenrod hover:underline">
                 Photos
               </Link>
-              <Link to="/contact" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/contact" className="w-fit hover:text-goldenrod hover:underline">
                 Contact Us
               </Link>
-              <Link to="/donate" className="w-fit hover:text-goldenrod-light hover:underline">
+              <Link to="/donate" className="w-fit hover:text-goldenrod hover:underline">
                 Donate
               </Link>
             </nav>
           </div>
 
           <div className="space-y-5 lg:col-span-1">
-            <h3 className="font-serif text-lg font-semibold text-goldenrod-light">Get Involved</h3>
+            <h3 className="font-serif text-lg font-semibold text-goldenrod">Get Involved</h3>
             <p className="max-w-sm text-sm leading-relaxed text-cream/90">
               Join our dig, sign up for a class, or donate to help us grow wildlife habitat one
               plant at a time.
