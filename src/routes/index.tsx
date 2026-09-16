@@ -424,7 +424,7 @@ function HomePage() {
                   <p className="mt-2 text-muted-foreground">
                     Presented by CPP and SWCD
                   </p>
-                  <p className="mt-1 font-medium text-foreground">Date: TBA</p>
+                  <p className="mt-1 font-medium text-foreground">January 26, 2027, 5:30 - 7:00 PM</p>
                 </div>
               </div>
             </div>

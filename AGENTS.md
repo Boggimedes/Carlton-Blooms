@@ -16,16 +16,20 @@
 This repo is the **source**. It is not what the server pulls.
 
 carltonblooms.org is served as a flat drop by the `boggs-tech` multi-site Laravel app
-(`Boggimedes/boggs-tech`, branch `multisite`), which is what the box pulls. Committing
+(`Boggimedes/boggs-tech`, branch `main`), which is what the box pulls. Committing
 here changes nothing on the live site.
 
-Every deploy is three steps:
+Every deploy:
 
-    npm run build                                  # here
+    npm run build                                  # here; also installs the drop
     cd ../boggs-tech
-    php artisan site:assets carltonblooms \
-      ../Carlton-Blooms/dist/client --force        # installs the drop
-    git commit                                     # in boggs-tech — this is the deploy
+    git commit && git push                         # in boggs-tech
+    ssh -i ~/.ssh/boggstech.pem ubuntu@54.148.70.101 \
+      'cd /srv/boggstech && bin/deploy'            # this is the deploy
+
+`npm run build` runs `site:assets` itself, so the drop lands in `boggs-tech` without a
+separate step. `bin/deploy` pulls, rebuilds the image and prints each site's bundle; check
+`curl -s https://carltonblooms.org/ | grep -o 'index-[^"]*\.js'` matches it.
 
 `site:assets` replaces `public/sites/carltonblooms/` wholesale and rewrites every
 root-absolute `/assets/` path to `/sites/carltonblooms/assets/`, in html, js, css and
