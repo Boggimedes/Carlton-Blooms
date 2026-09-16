@@ -3,30 +3,30 @@ import { Leaf, MapPin, Phone, Globe } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-earth text-earth-foreground">
+    <footer className="bg-earth text-black">
       <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-5">
             <Link to="/" className="flex items-center gap-2 transition-opacity hover:opacity-80">
-              <Leaf className="h-6 w-6 text-sage" aria-hidden="true" />
+              <Leaf className="h-6 w-6 text-black/70" aria-hidden="true" />
               <span className="font-serif text-xl font-semibold">Carlton Pollinator Project</span>
             </Link>
-            <p className="max-w-xs leading-relaxed text-cream/90">
+            <p className="max-w-xs leading-relaxed text-black/80">
               Restoring Native Ecology one plant at a time in Carlton, Oregon.
             </p>
-            <ul className="space-y-3 text-sm text-cream/90">
+            <ul className="space-y-3 text-sm text-black/80">
               <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-black/70" aria-hidden="true" />
                 <span>Carlton, Oregon</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
+                <Phone className="h-4 w-4 shrink-0 text-black/70" aria-hidden="true" />
                 <a href="tel:+15038301805" className="hover:underline">
                   (503) 830-1805
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Globe className="h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
+                <Globe className="h-4 w-4 shrink-0 text-black/70" aria-hidden="true" />
                 <a href="https://carltonblooms.org" className="hover:underline">
                   carltonblooms.org
                 </a>
@@ -35,32 +35,32 @@ export function Footer() {
           </div>
 
           <div className="space-y-5">
-            <h3 className="font-serif text-lg font-semibold text-goldenrod">Explore</h3>
-            <nav className="flex flex-col gap-3 text-sm text-cream/90">
-              <Link to="/" className="w-fit hover:text-goldenrod hover:underline">
+            <h3 className="font-serif text-lg font-semibold text-black">Explore</h3>
+            <nav className="flex flex-col gap-3 text-sm text-black/80">
+              <Link to="/" className="w-fit hover:text-black hover:underline">
                 Home
               </Link>
-              <Link to="/our-projects" className="w-fit hover:text-goldenrod hover:underline">
+              <Link to="/our-projects" className="w-fit hover:text-black hover:underline">
                 Our Projects
               </Link>
-              <Link to="/our-projects" className="w-fit hover:text-goldenrod hover:underline">
+              <Link to="/our-projects" className="w-fit hover:text-black hover:underline">
                 Classes
               </Link>
-              <Link to="/photos" className="w-fit hover:text-goldenrod hover:underline">
+              <Link to="/photos" className="w-fit hover:text-black hover:underline">
                 Photos
               </Link>
-              <Link to="/contact" className="w-fit hover:text-goldenrod hover:underline">
+              <Link to="/contact" className="w-fit hover:text-black hover:underline">
                 Contact Us
               </Link>
-              <Link to="/donate" className="w-fit hover:text-goldenrod hover:underline">
+              <Link to="/donate" className="w-fit hover:text-black hover:underline">
                 Donate
               </Link>
             </nav>
           </div>
 
           <div className="space-y-5 lg:col-span-1">
-            <h3 className="font-serif text-lg font-semibold text-goldenrod">Get Involved</h3>
-            <p className="max-w-sm text-sm leading-relaxed text-cream/90">
+            <h3 className="font-serif text-lg font-semibold text-black">Get Involved</h3>
+            <p className="max-w-sm text-sm leading-relaxed text-black/80">
               Join our dig, sign up for a class, or donate to help us grow wildlife habitat one
               plant at a time.
             </p>
@@ -73,7 +73,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-cream/10 pt-8 text-sm text-cream/80 md:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-black/15 pt-8 text-sm text-black/70 md:flex-row">
           <p>© 2026 Carlton Pollinator Project ~ Community creating vibrancy and beauty</p>
           <p>Restoring Native Ecology in Carlton, Oregon</p>
         </div>

@@ -1,4 +1,4 @@
-import { n as Button } from "./router-CaR4Xl2t.js";
+import { n as Button } from "./router-1szoB27V.js";
 import { n as pollinator_bumblebee_default, r as pollinator_painted_lady_default, t as hawn_creek_channel_default } from "./hawn-creek-channel-DN8QIN9A.js";
 import { n as beetopia_after_default, r as volunteers_group_default, t as hawn_creek_park_default } from "./hawn-creek-park-BYIE17JM.js";
 import { Link } from "@tanstack/react-router";
