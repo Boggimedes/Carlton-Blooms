@@ -11,7 +11,7 @@ import { clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 //#region src/styles.css?url
-var styles_default = "/assets/styles-B0Zq-u6b.css";
+var styles_default = "/assets/styles-ChE_H-S-.css";
 //#endregion
 //#region src/lib/lovable-error-reporting.ts
 function reportLovableError(error, context = {}) {
@@ -248,7 +248,7 @@ function Header() {
 //#region src/components/Footer.tsx
 function Footer() {
 	return /* @__PURE__ */ jsx("footer", {
-		className: "bg-earth text-black",
+		className: "bg-earth text-earth-foreground",
 		children: /* @__PURE__ */ jsxs("div", {
 			className: "mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8",
 			children: [/* @__PURE__ */ jsxs("div", {
@@ -261,7 +261,7 @@ function Footer() {
 								to: "/",
 								className: "flex items-center gap-2 transition-opacity hover:opacity-80",
 								children: [/* @__PURE__ */ jsx(Leaf, {
-									className: "h-6 w-6 text-black/70",
+									className: "h-6 w-6 text-sage",
 									"aria-hidden": "true"
 								}), /* @__PURE__ */ jsx("span", {
 									className: "font-serif text-xl font-semibold",
@@ -269,23 +269,23 @@ function Footer() {
 								})]
 							}),
 							/* @__PURE__ */ jsx("p", {
-								className: "max-w-xs leading-relaxed text-black/80",
+								className: "max-w-xs leading-relaxed text-cream/90",
 								children: "Restoring Native Ecology one plant at a time in Carlton, Oregon."
 							}),
 							/* @__PURE__ */ jsxs("ul", {
-								className: "space-y-3 text-sm text-black/80",
+								className: "space-y-3 text-sm text-cream/90",
 								children: [
 									/* @__PURE__ */ jsxs("li", {
 										className: "flex items-start gap-3",
 										children: [/* @__PURE__ */ jsx(MapPin, {
-											className: "mt-0.5 h-4 w-4 shrink-0 text-black/70",
+											className: "mt-0.5 h-4 w-4 shrink-0 text-sage",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("span", { children: "Carlton, Oregon" })]
 									}),
 									/* @__PURE__ */ jsxs("li", {
 										className: "flex items-center gap-3",
 										children: [/* @__PURE__ */ jsx(Phone, {
-											className: "h-4 w-4 shrink-0 text-black/70",
+											className: "h-4 w-4 shrink-0 text-sage",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("a", {
 											href: "tel:+15038301805",
@@ -296,7 +296,7 @@ function Footer() {
 									/* @__PURE__ */ jsxs("li", {
 										className: "flex items-center gap-3",
 										children: [/* @__PURE__ */ jsx(Globe, {
-											className: "h-4 w-4 shrink-0 text-black/70",
+											className: "h-4 w-4 shrink-0 text-sage",
 											"aria-hidden": "true"
 										}), /* @__PURE__ */ jsx("a", {
 											href: "https://carltonblooms.org",
@@ -314,36 +314,36 @@ function Footer() {
 							className: "font-serif text-lg font-semibold text-black",
 							children: "Explore"
 						}), /* @__PURE__ */ jsxs("nav", {
-							className: "flex flex-col gap-3 text-sm text-black/80",
+							className: "flex flex-col gap-3 text-sm text-cream/90",
 							children: [
 								/* @__PURE__ */ jsx(Link, {
 									to: "/",
-									className: "w-fit hover:text-black hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Home"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/our-projects",
-									className: "w-fit hover:text-black hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Our Projects"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/our-projects",
-									className: "w-fit hover:text-black hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Classes"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/photos",
-									className: "w-fit hover:text-black hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Photos"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/contact",
-									className: "w-fit hover:text-black hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Contact Us"
 								}),
 								/* @__PURE__ */ jsx(Link, {
 									to: "/donate",
-									className: "w-fit hover:text-black hover:underline",
+									className: "w-fit hover:text-goldenrod hover:underline",
 									children: "Donate"
 								})
 							]
@@ -357,7 +357,7 @@ function Footer() {
 								children: "Get Involved"
 							}),
 							/* @__PURE__ */ jsx("p", {
-								className: "max-w-sm text-sm leading-relaxed text-black/80",
+								className: "max-w-sm text-sm leading-relaxed text-cream/90",
 								children: "Join our dig, sign up for a class, or donate to help us grow wildlife habitat one plant at a time."
 							}),
 							/* @__PURE__ */ jsx(Link, {
@@ -369,7 +369,7 @@ function Footer() {
 					})
 				]
 			}), /* @__PURE__ */ jsxs("div", {
-				className: "mt-12 flex flex-col items-center justify-between gap-4 border-t border-black/15 pt-8 text-sm text-black/70 md:flex-row",
+				className: "mt-12 flex flex-col items-center justify-between gap-4 border-t border-cream/10 pt-8 text-sm text-cream/80 md:flex-row",
 				children: [/* @__PURE__ */ jsx("p", { children: "© 2026 Carlton Pollinator Project ~ Community creating vibrancy and beauty" }), /* @__PURE__ */ jsx("p", { children: "Restoring Native Ecology in Carlton, Oregon" })]
 			})]
 		})
@@ -531,7 +531,7 @@ function RootComponent() {
 }
 //#endregion
 //#region src/routes/index.tsx
-var $$splitComponentImporter$4 = () => import("./routes-CiNRDbTH.js");
+var $$splitComponentImporter$4 = () => import("./routes-4Z2pPR07.js");
 var Route$4 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Carlton Pollinator Project — Restoring Native Ecology" },
@@ -618,7 +618,7 @@ var Route$2 = createFileRoute("/donate")({
 });
 //#endregion
 //#region src/routes/our-projects.tsx
-var $$splitComponentImporter$1 = () => import("./our-projects-DyTR2cYU.js");
+var $$splitComponentImporter$1 = () => import("./our-projects-C4BGev63.js");
 var Route$1 = createFileRoute("/our-projects")({
 	head: () => ({ meta: [
 		{ title: "Our Projects — Carlton Pollinator Project" },
@@ -647,7 +647,7 @@ var Route$1 = createFileRoute("/our-projects")({
 });
 //#endregion
 //#region src/routes/photos.tsx
-var $$splitComponentImporter = () => import("./photos-Bmq9S3nU.js");
+var $$splitComponentImporter = () => import("./photos-D-mZkJ_F.js");
 var Route = createFileRoute("/photos")({
 	head: () => ({ meta: [
 		{ title: "Photos — Carlton Pollinator Project" },
