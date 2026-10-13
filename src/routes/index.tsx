@@ -174,10 +174,10 @@ function HomePage() {
                 Insect Decline
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-                Insects face sharply declining populations that threaten our ecosystems. Habitat
-                loss through development and agricultural monocultures, pollution and pesticide use,
-                climate change, and invasive plants overtaking native forage and nesting areas all
-                have had a devastating effect on our bee and insect populations.
+                Insects are crucial to our ecosystems—they support pollination, regenerate soil and
+                significantly contribute to the food web—but insects are in trouble. Habitat loss,
+                pesticide use and pollution, climate change and invasive species have all had a
+                devastating impact on our bee and insect populations. They need our help.
               </p>
             </div>
             <div className="rounded-3xl border border-border bg-muted/50 p-8 shadow-sm">

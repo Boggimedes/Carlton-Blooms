@@ -14,6 +14,9 @@ import kidsFenceArt from "@/assets/kids-fence-art.jpg";
 import hawnCreekPark from "@/assets/hawn-creek-park.jpg";
 import hawnCreekChannel from "@/assets/hawn-creek-channel.jpg";
 import hawnCreekClearing from "@/assets/hawn-creek-clearing.jpg";
+import hawnCreekRockEdging from "@/assets/hawn-creek-rock-edging.jpg";
+import hawnCreekRaking from "@/assets/hawn-creek-raking.jpg";
+import hawnCreekChipper from "@/assets/hawn-creek-chipper.jpg";
 import beetopiaBefore from "@/assets/beetopia-before.jpg";
 import beetopiaAfter from "@/assets/beetopia-after.jpg";
 import beetopiaSign from "@/assets/beetopia-sign.jpg";
@@ -156,6 +159,18 @@ const parkPhotos: Photo[] = [
   {
     src: hawnCreekClearing,
     alt: "The open grassy clearing under the trees at Hawn Creek Pocket Park, before restoration planting",
+  },
+  {
+    src: hawnCreekRockEdging,
+    alt: "Two volunteers setting edging rocks along a freshly mulched slope at Hawn Creek Pocket Park",
+  },
+  {
+    src: hawnCreekRaking,
+    alt: "Volunteers young and old raking leaves and clearing cut brush under the trees at Hawn Creek Pocket Park",
+  },
+  {
+    src: hawnCreekChipper,
+    alt: "Volunteers feeding cut branches into a wood chipper while children in ear protection look on",
   },
 ];
 
